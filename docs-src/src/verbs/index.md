@@ -4,6 +4,7 @@
 ```@contents
 Pages = [
     "omega.md",
+    "omega-compound.md",
     "mi.md",
     "ew_contracts.md",
     "aw_contracts.md",
