@@ -23,7 +23,7 @@ makedocs(
         "Verbal stems" => Any[
             "verbs/index.md",
             "Regular verbs: -ω conjugation"  => "verbs/omega.md",
-            
+            "Regular verbs: -ω conjugation (compound verb)"  => "verbs/omega-compound.md",
             "Regular verbs: -μι conjugation"  => "verbs/mi.md",
             "Regular verbs: -εω contracts"  => "verbs/ew_contracts.md",
             "Regular verbs: -αω contracts"  => "verbs/aw_contracts.md",

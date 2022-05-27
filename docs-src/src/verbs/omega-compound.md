@@ -1,9 +1,9 @@
-# Regular -ω verb: simplex form
+# Regular -ω verb: compound verb
 
 
 ```
-Rule|LexicalEntity|StemClass|Stem|
-verbstems.n56496|lsj.n56496|κελευ|w_regular|
+Stem|LexicalEntity|Prefix|Simplex|Note
+compounds.n30252|lsj.n30252|ἐν|lsj.n56496|ἐγκελεύω
 ```
 
 The following paradigms are generated from this entry.
@@ -15,7 +15,7 @@ repoparent = pwd() |> dirname |> dirname |> dirname |> dirname
 
 kds = joinpath(repoparent, "Kanones.jl", "datasets", "literarygreek-rules") |> dataset
 
-κελευω = LexemeUrn("lsj.n56496")
+εν_κελευω = LexemeUrn("lsj.n30252")
 
-Markdown.parse(md_proofconjugation(κελευω, kds))
+Markdown.parse(md_proofconjugation(εν_κελευω, kds))
 ```
