@@ -13,59 +13,60 @@ Pkg.instantiate()
 using Documenter, DocStringExtensions
 #using CitableObject
 using Kanones
+using Markdown
 
 
 makedocs(
     sitename="Kanones: guide to editing lexica",
     pages = [
         "Home" => "index.md",
+        "Verbal stems" => Any[
+            "verbs/index.md",
+            "Regular verbs: -ω conjugation"  => "verbs/omega.md",
+            
+            "Regular verbs: -μι conjugation"  => "verbs/mi.md",
+            "Regular verbs: -εω contracts"  => "verbs/ew_contracts.md",
+            "Regular verbs: -αω contracts"  => "verbs/aw_contracts.md",
+            "Regular verbs: -οω contracts"  => "verbs/ow_contracts.md",
+            "Regular verbs in -ιζω"  => "verbs/izw.md",
+            "Attic futures" => "verbs/atticfut.md",
+            "Second aorists" => "verbs/secondaor.md",
+            "Principal parts" => "verbs/princparts.md",
+            "Irregular verb forms" => "verbs/irregulars.md"
+            
+        ],
     ]
     #=
         "Reference: stem types and paradigms in the `literarygreek-rules` dataset" => Any[
-            "Stem types and paradigms" => "stemtypes/index.md",
+            "Stem types and paradigms" => "index.md",
         
             "Noun stems" => Any[ 
-                "stemtypes/nouns/index.md",
-                "Regular nouns: first declension" => "stemtypes/nouns/decl1.md",
-                "Regular nouns: second declension" => "stemtypes/nouns/decl2.md",
-                "Regular nouns: third declension" => "stemtypes/nouns/decl3.md",
-                "Irregular nouns" => "stemtypes/nouns/irreg.md"
+                "nouns/index.md",
+                "Regular nouns: first declension" => "nouns/decl1.md",
+                "Regular nouns: second declension" => "nouns/decl2.md",
+                "Regular nouns: third declension" => "nouns/decl3.md",
+                "Irregular nouns" => "nouns/irreg.md"
             ],
                   
             "Adjective stems" => Any[
-                "Adjective stems and paradigms" => "stemtypes/adjectives/index.md",
-                "Adjectives of the first and second declensions" => "stemtypes/adjectives/first-second.md",
-                "Adjectives of the third declensions" => "stemtypes/adjectives/third.md"
+                "Adjective stems and paradigms" => "adjectives/index.md",
+                "Adjectives of the first and second declensions" => "adjectives/first-second.md",
+                "Adjectives of the third declensions" => "adjectives/third.md"
             ],
      
-            "Verbal stems" => Any[
-                "stemtypes/verbs/index.md",
-                "Regular verbs: -ω conjugation"  => "stemtypes/verbs/omega.md",
-            ]
-                
-                "Regular verbs: -μι conjugation"  => "stemtypes/verbs/mi.md",
-                "Regular verbs: -εω contracts"  => "stemtypes/verbs/ew_contracts.md",
-                "Regular verbs: -αω contracts"  => "stemtypes/verbs/aw_contracts.md",
-                "Regular verbs: -οω contracts"  => "stemtypes/verbs/ow_contracts.md",
-                "Regular verbs in -ιζω"  => "stemtypes/verbs/izw.md",
-                "Attic futures" => "stemtypes/verbs/atticfut.md",
-                "Second aorists" => "stemtypes/verbs/secondaor.md",
-                "Principal parts" => "stemtypes/verbs/princparts.md",
-                "Irregular verb forms" => "stemtypes/verbs/irregulars.md",
-                
-            ],
-            "Pronouns" => "stemtypes/pronouns/index.md",
+           
+            "Pronouns" => "pronouns/index.md",
 
-            "Uninflected types" => "stemtypes/uninflected.md",
+            "Uninflected types" => "uninflected.md",
             "Participles" => Any[
-                "Participle paradigms" => "stemtypes/participles/index.md",
-                "Participles of regular -ω verbs" => "stemtypes/participles/omega.md",
-                "Participles of -εω contracts"  => "stemtypes/participles/ew_contracts.md",
-                "Participles of -αω contracts"  => "stemtypes/participles/aw_contracts.md",
-                "Participles of -οω contracts"  => "stemtypes/participles/ow_contracts.md",
-                "Participles of -μι verbs" => "stemtypes/participles/mi.md",
-                "Participles of verbs in -ιζω"  => "stemtypes/verbs/izw.md",
-                "Second aorist participles" => "stemtypes/participles/secondaor.md",
+                "Participle paradigms" => "participles/index.md",
+                "Participles of regular -ω verbs" => "participles/omega.md",
+                "Participles of -εω contracts"  => "participles/ew_contracts.md",
+                "Participles of -αω contracts"  => "participles/aw_contracts.md",
+                "Participles of -οω contracts"  => "participles/ow_contracts.md",
+                "Participles of -μι verbs" => "participles/mi.md",
+                "Participles of verbs in -ιζω"  => "verbs/izw.md",
+                "Second aorist participles" => "participles/secondaor.md",
             ]
         ],   
 
