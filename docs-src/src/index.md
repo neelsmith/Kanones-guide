@@ -1,6 +1,12 @@
 # Kanones: guide to editing lexica
 
 
+!!! note "Version"
+
+    Automatically generated paradigms were built with version 0.10.0 of Kanones.
+
+
+
 
 > ## TBA
 >
