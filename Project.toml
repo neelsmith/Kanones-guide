@@ -1,0 +1,9 @@
+[deps]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Kanones = "107500f9-53d4-4696-8485-0747242ad8bc"
+
+[compat]
+DocStringExtensions = "0.8"
+Documenter = "0.27"
+Kanones = "0.10"
