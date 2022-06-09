@@ -1,16 +1,34 @@
 # Verb paradigms and inflectional classes
 
 
+## Completely regular verb types
+
 ```@contents
 Pages = [
-    "omega.md",
-    "omega-compound.md",
-    "mi.md",
-    "ew_contracts.md",
-    "aw_contracts.md",
-    "ow_contracts.md",
-    "princparts.md",
-    "irregulars.md"
+    "regular/omega.md",
+    "regular/omega-compound.md",
+    "regular/mi.md",
+    "regular/ew_contracts.md",
+    "regular/aw_contracts.md",
+    "regular/ow_contracts.md",
+    "regular/izw.md",
+    "regular/skw.md"
+]
+Depth = 5
+```
+
+## Regular forms for principal parts
+
+```@contents
+Pages = [
+    "princparts/pp1.md",
+    "princparts/pp2.md",
+    "princparts/pp3.md",
+    "princparts/pp4.md",
+    "princparts/pp5.md",
+    "princparts/pp6.md",
+    "princparts/atticfut.md",
+    "princparts/secondaor.md"    
 ]
 Depth = 5
 ```

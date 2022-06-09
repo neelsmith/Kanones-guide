@@ -22,16 +22,30 @@ makedocs(
         "Home" => "index.md",
         "Verbal stems" => Any[
             "verbs/index.md",
-            "Regular verbs: -ω conjugation"  => "verbs/omega.md",
-            "Regular verbs: -ω conjugation (compound verb)"  => "verbs/omega-compound.md",
-            "Regular verbs: -μι conjugation"  => "verbs/mi.md",
-            "Regular verbs: -εω contracts"  => "verbs/ew_contracts.md",
-            "Regular verbs: -αω contracts"  => "verbs/aw_contracts.md",
-            "Regular verbs: -οω contracts"  => "verbs/ow_contracts.md",
-            "Regular verbs in -ιζω"  => "verbs/izw.md",
-            "Attic futures" => "verbs/atticfut.md",
-            "Second aorists" => "verbs/secondaor.md",
-            "Principal parts" => "verbs/princparts.md",
+            "Regular stems" => Any[ 
+
+                "Regular verbs: -ω conjugation"  => "verbs/regular/omega.md",
+                
+                "Regular verbs: -ω conjugation (compound verb)"  => "verbs/regular/omega-compound.md",
+                "Regular verbs: -μι conjugation"  => "verbs/regular/mi.md",
+                "Regular verbs: -εω contracts"  => "verbs/regular/ew_contracts.md",
+                "Regular verbs: -αω contracts"  => "verbs/regular/aw_contracts.md",
+                "Regular verbs: -οω contracts"  => "verbs/regular/ow_contracts.md",
+                "Regular verbs in -ιζω"  => "verbs/regular/izw.md",
+                "Regular verbs in -σκω"  => "verbs/regular/skw.md",
+            ],
+            
+            "Regular forms for principal parts"  => Any[
+                "First principal part" => "verbs/princparts/pp1.md",
+                "Second principal part" => "verbs/princparts/pp2.md",
+                "Third principal part" => "verbs/princparts/pp3.md",
+                "Fourth principal part" => "verbs/princparts/pp4.md",
+                "Fifth principal part" => "verbs/princparts/pp5.md",
+                "Sixth principal part" => "verbs/princparts/pp6.md",
+                "Attic futures" => "verbs/princparts/atticfut.md",
+                "Second aorists" => "verbs/princparts/secondaor.md",
+            ],
+            
             "Irregular verb forms" => "verbs/irregulars.md"
             
         ],
