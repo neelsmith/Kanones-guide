@@ -1,12 +1,6 @@
 # Kanones: guide to editing lexica
 
 
-!!! note "Version"
-
-    Automatically generated paradigms were built with version 0.10.0 of Kanones.
-
-
-
 
 > ## TBA
 >
@@ -22,6 +16,22 @@ For each inflectional type:
 
 - an example of an entry in a table of stems
 - an automatically composed paradigm illustrating the forms generated from that stem record
+
+
+
+```@eval
+using Pkg, Markdown
+version = Pkg.installed()["Kanones"]
+
+msg = """
+!!! note "Kanones version: $(version)"
+
+    All paradigms on this site were automatically generated with Kanones, version **$(version)**.
+"""
+
+Markdown.parse(msg)
+```
+
 
 !!! note "Coverage"
 
