@@ -17,6 +17,25 @@ Pages = [
 Depth = 5
 ```
 
+
+
+
+## Completely regular deponents
+
+```@contents
+Pages = [
+    "deponents/omega-deponents.md",
+    "deponents/mi-deponents.md",
+    "deponents/ew_contracts-deponents.md",
+    "deponents/aw_contracts-deponents.md",
+    "deponents/ow_contracts-deponents.md",
+    "deponents/izw-deponents.md",
+    "deponents/skw-deponents.md"
+]
+Depth = 5
+```
+
+
 ## Regular forms for principal parts
 
 ```@contents

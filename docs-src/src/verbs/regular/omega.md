@@ -19,3 +19,4 @@ kds = joinpath(repoparent, "Kanones.jl", "datasets", "literarygreek-rules") |> d
 
 Markdown.parse(md_proofconjugation(κελευω, kds))
 ```
+
