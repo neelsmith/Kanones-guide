@@ -15,7 +15,7 @@ Paradigms generated from these entries:
 ```@eval
 using Kanones, CitableParserBuilder, Markdown
 repo = pwd() |> dirname |> dirname |> dirname |> dirname
-srcdir = joinpath(repo, "datasets", "literarygreek-rules") 
+srcdir = joinpath(repo,  "Kanones.jl", "datasets", "literarygreek-rules") 
 kds = Kanones.FilesDataset([srcdir])
 ανθρωπος = LexemeUrn("lsj.n8909")
 
@@ -27,7 +27,7 @@ Markdown.parse(md_declension(ανθρωπος, kds))
 ```@eval
 using Kanones, CitableParserBuilder, Markdown
 repo = pwd() |> dirname |> dirname |> dirname |> dirname
-srcdir = joinpath(repo, "datasets", "literarygreek-rules") 
+srcdir = joinpath(repo,  "Kanones.jl", "datasets", "literarygreek-rules") 
 kds = Kanones.FilesDataset([srcdir])
 δωρον = LexemeUrn("lsj.n29828")
 

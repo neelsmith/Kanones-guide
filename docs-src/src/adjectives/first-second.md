@@ -18,7 +18,7 @@ Paradigms generated from these entries:
 ```@eval
 using Kanones, CitableParserBuilder, Markdown
 repo = pwd() |> dirname |> dirname |> dirname |> dirname
-srcdir = joinpath(repo, "datasets", "literarygreek-rules") 
+srcdir = joinpath(repo, "Kanones.jl",  "datasets", "literarygreek-rules") 
 kds = Kanones.FilesDataset([srcdir])
 κακος = LexemeUrn("lsj.n52332")
 

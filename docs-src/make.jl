@@ -32,7 +32,8 @@ makedocs(
                 "Regular verbs: -αω contracts"  => "verbs/regular/aw_contracts.md",
                 "Regular verbs: -οω contracts"  => "verbs/regular/ow_contracts.md",
                 "Regular verbs in -ιζω"  => "verbs/regular/izw.md",
-                "Regular verbs in -σκω"  => "verbs/regular/skw.md",
+                "Regular verbs in -σκω"  => "verbs/regular/azw.md",
+                "Regular verbs in -ττω"  => "verbs/regular/ttw.md",
             ],
             "Regular deponent stems" => Any[
                 "Regular deponents: -ω conjugation"  => "verbs/deponents/omega-deponents.md",
@@ -42,7 +43,8 @@ makedocs(
                 "Regular deponents: -αω contracts"  => "verbs/deponents/aw-deponents.md",
                 "Regular deponents: -οω contracts"  => "verbs/deponents/ow-deponents.md",
                 "Regular deponents in -ιζω"  => "verbs/deponents/izw-deponents.md",
-                "Regular deponents in -σκω"  => "verbs/deponents/skw-deponents.md",
+                "Regular deponents in -αζω"  => "verbs/deponents/azw-deponents.md",
+                "Regular deponents in -ττω"  => "verbs/deponents/ttw-deponents.md",
             ],
             "Regular forms for principal parts"  => Any[
                 "First principal part" => "verbs/princparts/pp1.md",

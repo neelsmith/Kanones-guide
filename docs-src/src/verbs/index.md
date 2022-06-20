@@ -12,7 +12,8 @@ Pages = [
     "regular/aw_contracts.md",
     "regular/ow_contracts.md",
     "regular/izw.md",
-    "regular/skw.md"
+    "regular/azw.md",
+    "regular/ttw.md"
 ]
 Depth = 5
 ```
@@ -30,7 +31,9 @@ Pages = [
     "deponents/aw_contracts-deponents.md",
     "deponents/ow_contracts-deponents.md",
     "deponents/izw-deponents.md",
-    "deponents/skw-deponents.md"
+    "deponents/azw-deponents.md",
+    "deponents/ttw-deponents.md",
+    
 ]
 Depth = 5
 ```

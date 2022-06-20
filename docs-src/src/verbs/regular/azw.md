@@ -1,13 +1,13 @@
-# Verbs in -σκω 
+# Verbs in -άζω 
 
 
-Inflection class: `skw`
+Inflection class: `azw`
 
-Example verb:  ἀρέσκω
+Example verb:  ἀγοράζω
 
 ```
 Rule|LexicalEntity|StemClass|Stem|
-verbstems.n14954|lsj.n14954|ἀρε|skw
+verbstems.n762|lsj.n762|ἀγορα|azw|
 ```
 
 The following paradigms are generated from this entry.
@@ -19,7 +19,7 @@ repoparent = pwd() |> dirname |> dirname |> dirname |> dirname |> dirname
 
 kds = joinpath(repoparent, "Kanones.jl", "datasets", "literarygreek-rules") |> dataset
 
-αρεσκω = LexemeUrn("lsj.n14954")
+αγοραζω = LexemeUrn("lsj.n762")
 
-Markdown.parse(md_proofconjugation(αρεσκω, kds))
+Markdown.parse(md_proofconjugation(αγοραζω, kds))
 ```
