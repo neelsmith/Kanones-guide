@@ -1,1 +1,1 @@
-# TBA
+# Deponent verbs in -ιζω 

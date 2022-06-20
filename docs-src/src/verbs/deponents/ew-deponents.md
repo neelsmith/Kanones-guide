@@ -1,1 +1,2 @@
-# TBA
+# Regular deponent verbs:  -εω contracts
+
