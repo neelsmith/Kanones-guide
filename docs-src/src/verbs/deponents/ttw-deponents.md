@@ -1,3 +1,3 @@
-# Deponent verbs in -ττω
+# Regular deponent verbs in -ττω
 
 

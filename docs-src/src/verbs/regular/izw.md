@@ -1,4 +1,4 @@
-# Verbs in -ιζω 
+# Regular verbs in -ιζω 
 
 
 Inflection class: `izw`

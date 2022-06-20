@@ -1,1 +1,1 @@
-# Deponent verbs in -ιζω 
+# Regular deponent verbs in -ιζω 

@@ -1,4 +1,4 @@
-# Verbs in -άζω 
+# Regular verbs in -άζω 
 
 
 Inflection class: `azw`

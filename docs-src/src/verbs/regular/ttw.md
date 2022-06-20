@@ -1,3 +1,3 @@
-# Verbs in -ττω
+# Regular verbs in -ττω
 
 TBA

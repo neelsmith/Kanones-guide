@@ -1,3 +1,3 @@
-# Deponent verbs in -άζω 
+# Regular deponent verbs in -άζω 
 
 TBA
