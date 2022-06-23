@@ -20,6 +20,20 @@ makedocs(
     sitename="Kanones: guide to editing lexica",
     pages = [
         "Home" => "index.md",
+
+        "Noun stems" => Any[ 
+            "nouns/index.md",
+            #"Regular nouns: first declension" => "nouns/decl1.md",
+            #"Regular nouns: second declension" => "nouns/decl2.md",
+            #"Regular nouns: third declension" => "nouns/decl3.md",
+            #"Irregular nouns" => "nouns/irreg.md"
+        ],
+        "Adjective stems" => Any[
+            "Adjective stems and paradigms" => "adjectives/index.md",
+          #  "Adjectives of the first and second declensions" => "adjectives/first-second.md",
+           # "Adjectives of the third declensions" => "adjectives/third.md"
+        ],
+
         "Verbal stems" => Any[
             "verbs/index.md",
             "Regular stems" => Any[ 
@@ -64,20 +78,8 @@ makedocs(
     #=
         "Reference: stem types and paradigms in the `literarygreek-rules` dataset" => Any[
             "Stem types and paradigms" => "index.md",
-        
-            "Noun stems" => Any[ 
-                "nouns/index.md",
-                "Regular nouns: first declension" => "nouns/decl1.md",
-                "Regular nouns: second declension" => "nouns/decl2.md",
-                "Regular nouns: third declension" => "nouns/decl3.md",
-                "Irregular nouns" => "nouns/irreg.md"
-            ],
-                  
-            "Adjective stems" => Any[
-                "Adjective stems and paradigms" => "adjectives/index.md",
-                "Adjectives of the first and second declensions" => "adjectives/first-second.md",
-                "Adjectives of the third declensions" => "adjectives/third.md"
-            ],
+                      
+           
      
            
             "Pronouns" => "pronouns/index.md",

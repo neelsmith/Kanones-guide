@@ -40,9 +40,9 @@ In addition, Kanones allows to append arbitrary notes in a fifth column; it is g
 For example, ἐγκελεύω is a compound of the prefix ἐν and the simplex verb κελεύω, which we previously cataloged.  Its [identifier in LSJ is `n30252`](http://folio2.furman.edu/lsj/?urn=urn:cite2:hmt:lsj.chicago_md:n30252), so its `LexemeUrn` will be `lsj.n30252`. As we did before, we can use this identifier to create a unique value for the single stem required, which we will call `compounds.n30252`.  We do not need to record a stem string, so that will be taken from the simplex verb. 
 
 
-!!! warn "Don't forget the simplex form!"
+!!! warn "Don't forget the simplex stem!"
 
-    Note that the lexeme URN for the simplex verb *must* refer to a verb you have cataloged in the `verbs-simplex` directory.
+    Note that the lexeme URN for the simplex verb *must* refer to a verb you have cataloged in the `verbs-simplex` directory. 
 
 
 Here is a CEX file recording ἐγκελεύω.
