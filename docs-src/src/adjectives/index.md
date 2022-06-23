@@ -1,7 +1,7 @@
 # Adjective paradigms and inflectional classes
 
 
-> # TBA
+> ## TBA
 >
 > put delimited text files in `stems-tables/adjectives` (or a subdirectory of it)
 >
@@ -15,15 +15,8 @@
 
 
 
+## Reference: inflectional classes for adjectives grouped by traditional declensions
+
 Adjectives are grouped by the declensional patterns they follow. Each group includes both adjectives with three distinct cases, and adjectives with only two distinct case forms.  See  details on the following pages.
 
-
-#=
-```@contents
-Pages = [
-    "first-second.md",
-    "third.md"
-]
-Depth = 5
-```
-=#
+> TBA

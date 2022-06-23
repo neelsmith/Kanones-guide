@@ -18,7 +18,7 @@ Inevitably, when you parse almost any corpus of a certain size, you encounter vo
 > - this site documents the inflectional classes used in Kanones' rules for standard literary Greek
 
 
-> ## What you do TBA
+> ### What you do TBA
 >
 >
 > layout of your delimited-text files
@@ -60,7 +60,7 @@ In the paradigms, a dash `-` indicates that the morphological form does not exis
 - poorly attested (e.g., verbs in the perfect or optative subjunctive), or 
 - entirely unattested (such as active voice forms of deponent verbs)
 
-### Inflectional types and paradigms by part of speech
+## Reference: inflectional types and paradigms by part of speech
 
 ```@contents
 Pages = [

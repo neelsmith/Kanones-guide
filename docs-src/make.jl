@@ -24,12 +24,12 @@ makedocs(
         "Noun stems" => Any[ 
             "nouns/index.md",
             #"Regular nouns: first declension" => "nouns/decl1.md",
-            #"Regular nouns: second declension" => "nouns/decl2.md",
+            "Regular nouns: second declension" => "nouns/decl2.md",
             #"Regular nouns: third declension" => "nouns/decl3.md",
             #"Irregular nouns" => "nouns/irreg.md"
         ],
         "Adjective stems" => Any[
-            "Adjective stems and paradigms" => "adjectives/index.md",
+           "adjectives/index.md",
           #  "Adjectives of the first and second declensions" => "adjectives/first-second.md",
            # "Adjectives of the third declensions" => "adjectives/third.md"
         ],
@@ -46,7 +46,7 @@ makedocs(
                 "Regular verbs: -αω contracts"  => "verbs/regular/aw_contracts.md",
                 "Regular verbs: -οω contracts"  => "verbs/regular/ow_contracts.md",
                 "Regular verbs in -ιζω"  => "verbs/regular/izw.md",
-                "Regular verbs in -σκω"  => "verbs/regular/azw.md",
+                "Regular verbs in -αζω"  => "verbs/regular/azw.md",
                 "Regular verbs in -ττω"  => "verbs/regular/ttw.md",
             ],
             "Regular deponent stems" => Any[

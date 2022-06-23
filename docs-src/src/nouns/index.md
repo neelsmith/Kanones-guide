@@ -1,6 +1,6 @@
 # Noun paradigms and inflectional classes
 
-> # TBA
+> ## TBA
 > 
 > put files in `stems-tables/nouns` (or a subdirectory of it)
 >
@@ -13,16 +13,15 @@
 > 5. gender
 > 6. accent persistence
 
-#=
-Inflectional patterns for nouns are grouped together by traditional declensions:
+
+## Reference: inflectional classes for nouns grouped by traditional declensions:
 
 ```@contents
 Pages = [
-    "decl1.md",
+    #"decl1.md",
     "decl2.md",
-    "decl3.md",
-    "irreg.md"
+    #"decl3.md",
+    #"irreg.md"
 ]
 Depth = 5
 ```
-=#
