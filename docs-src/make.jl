@@ -23,9 +23,9 @@ makedocs(
 
         "Noun stems" => Any[ 
             "nouns/index.md",
-            #"Regular nouns: first declension" => "nouns/decl1.md",
+            "Regular nouns: first declension" => "nouns/decl1.md",
             "Regular nouns: second declension" => "nouns/decl2.md",
-            #"Regular nouns: third declension" => "nouns/decl3.md",
+            "Regular nouns: third declension" => "nouns/decl3.md",
             #"Irregular nouns" => "nouns/irreg.md"
         ],
         "Adjective stems" => Any[

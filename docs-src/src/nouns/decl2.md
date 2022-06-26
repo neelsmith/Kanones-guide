@@ -1,16 +1,16 @@
 # Second-declension nouns
 
 
+
+
+## Masculine
+
 Stem entries:
 
 ```
 StemUrn|LexicalEntity|Stem|Gender|InflClass|Accent|
-nounstems.n29828|lsj.n29828|δωρ|neuter|os_ou|recessive|
 nounstems.n8909|lsj.n8909|ἀνθρωπ|masculine|os_ou|recessive|
 ```
-
-Paradigms generated from these entries:
-
 
 ```@eval
 using Kanones, CitableParserBuilder, Markdown
@@ -23,6 +23,16 @@ kds = Kanones.FilesDataset([srcdir])
 Markdown.parse(md_declension(ανθρωπος, kds))
 ```
 
+
+
+## Neuter
+
+Stem entries:
+
+```
+StemUrn|LexicalEntity|Stem|Gender|InflClass|Accent|
+nounstems.n29828|lsj.n29828|δωρ|neuter|os_ou|recessive|
+```
 
 ```@eval
 using Kanones, CitableParserBuilder, Markdown
