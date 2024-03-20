@@ -1,0 +1,5 @@
+---
+title: "Kanones"
+---
+
+This is a user's site for Kanones.  It should incorporate content currenlty served in gh-pages from the `docs` directory, reorganized according to the principles of the [Diátaxis](https://diataxis.fr) system.

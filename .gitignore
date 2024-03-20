@@ -2,3 +2,5 @@ docs-src/build/
 Manifest.toml
 .DS_Store
 .vscode/
+.quarto/
+_site/
