@@ -2,4 +2,37 @@
 title: "How-to guides"
 ---
 
-This section collects recipes for how to do things in Kanónes.
+This section collects recipes for how to do things in Kanónes. If you are just starting out, you may want to explore the tutorials to learn the basics.  You can learn more about the underlying concepts in the "Concepts" section of the site.
+
+:::: {.columns}
+
+::: {.column width="25%"}
+### Managing Kanónes data sets
+
+Creating a data set
+
+Working with multiple datasets
+
+Strategies for managing data
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="25%"}
+### Adding vocabulary
+
+[Noun stems](nouns-guide.qmd)
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="25%"}
+### Adding inflectional rules
+:::
+
+::::

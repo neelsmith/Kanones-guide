@@ -1,5 +1,16 @@
 ---
-title: "Kanones"
+title: "Kanónes"
 ---
 
-This is a user's site for Kanones.  It should incorporate content currenlty served in gh-pages from the `docs` directory, reorganized according to the principles of the [Diátaxis](https://diataxis.fr) system.
+> *Build corpus-specific Greek morphological parsers*.
+
+`Kanones.jl` is a Julia package for building Greek morphological parsers.
+
+- [Get started](tutorials/index.qmd)!
+- [Guide to Kanónes](guides/index.qmd)
+
+(This site should incorporate content currently served in gh-pages from the `docs` directory.)
+
+
+
+
