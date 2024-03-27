@@ -1,52 +1,21 @@
 project:
   type: website
 
+
 website:
-  title: "Kanones"
-  navbar:
-      background: primary
-      search: true
-      left:
-        - text: "Home"
-          file: index.qmd
-        - text: "Tutorials"
-          file: tutorials.qmd
-        - text: "How-To"
-          file: howto.qmd
-        - text: "Fundamentals"
-          file: fundamentals.qmd
-        - text: "Reference"
-          file: reference.qmd   
   sidebar:
-    - title: "Tutorials"
-      style: "docked"
-      background: light
-      contents:
-        - start.qmd
-
-
-    - title: "How-To"
-      contents:
-        - guides/nounstems/nouns-guide.qmd
-        # navigation items
-
-    - title: "Fundamentals"
-      contents:
-        - concepts/orthography.qmd
-        # navigation items
-
-    - title: "Reference"
-      contents:
-        - reference.qmd
-        # navigation items
-     
-
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
-
-
-
+    style: floating
+    contents:
+      - section: How-To
+        contents: guides/*.qmd
+      - section: Concepts
+        contents: concepts/*.qmd
+      - section: Reference
+        contents: reference/*.qmd 
+               
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
