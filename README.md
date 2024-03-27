@@ -1,6 +1,6 @@
-# Kanones-vocab-guide
+# Kanones-guide
 
-Source for website at <https://neelsmith.github.io/Kanones-vocab-guide/>.
+Source for website at <https://neelsmith.github.io/Kanones-guide/>.
 
 ## Building the site
 
