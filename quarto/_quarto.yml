@@ -22,18 +22,17 @@ website:
       style: "docked"
       background: light
       contents:
-        - nounstems/nounstutorial.qmd
-        - tutorial-1.qmd
-        - tutorial-2.qmd
+        - start.qmd
+
 
     - title: "How-To"
       contents:
-        - howto.qmd
+        - guides/nounstems/nouns-guide.qmd
         # navigation items
 
     - title: "Fundamentals"
       contents:
-        - fundamentals.qmd
+        - concepts/orthography.qmd
         # navigation items
 
     - title: "Reference"

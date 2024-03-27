@@ -1,0 +1,9 @@
+---
+title: "Quick start"
+---
+
+
+Getting started with Kanones!
+
+You'll need Julia.
+

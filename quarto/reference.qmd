@@ -1,3 +1,6 @@
 ---
 title: "Reference"
 ---
+
+
+List of inflectional types maybe?
