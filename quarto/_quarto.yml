@@ -3,19 +3,35 @@ project:
 
 
 website:
-  sidebar:
-    style: floating
-    contents:
-      - section: How-To
-        contents: guides/*.qmd
-      - section: Concepts
-        contents: concepts/*.qmd
-      - section: Reference
-        contents: reference/*.qmd 
-               
+         
   navbar:
     background: primary
     search: true
     left:
       - text: "Home"
         file: index.qmd
+      - text: "Tutorials"
+        file: tutorials/index.qmd          
+      - text: "Concepts"
+        file: concepts/index.qmd   
+      - text: "Guides"
+        file: guides/index.qmd           
+      - text: "Reference"
+        file: reference/index.qmd  
+
+
+  sidebar:
+    - title: "Tutorials"
+      contents: tutorials   
+    - title: "Guides"
+      contents: guides
+    - title: "Reference"
+      contents: reference
+    - title: "Concepts"
+      contents: concepts         
+    - title: "Home"
+      contents:
+        - index.qmd               
+ 
+
+           

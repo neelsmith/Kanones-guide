@@ -1,5 +1,0 @@
----
-title: "Guides"
----
-
-How to do a lot of specific things: guides for adding vocab to each inflectional type

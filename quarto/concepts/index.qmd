@@ -2,6 +2,9 @@
 title: "Fundamental concepts"
 ---
 
+This section explains what makes Kanónes different from other approaches to morphological parsing of ancient Greek.
+
+
 
 ## Motivation
 
@@ -14,3 +17,4 @@ Inevitably, when you parse almost any corpus of a certain size, you encounter vo
 
 stems + rules are combined based on an inflectional class
 this site documents the inflectional classes used in Kanones' rules for standard literary Greek
+
